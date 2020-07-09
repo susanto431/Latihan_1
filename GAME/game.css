@@ -1,0 +1,38 @@
+body{
+    background: url(../img/game.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: left;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+#logo{
+    text-align: left;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'open sans';
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover{
+    background-color: #211b4385;
+}
